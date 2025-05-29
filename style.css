@@ -1,0 +1,274 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    font-family:"Lato";
+}
+
+.container {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 85px;
+    align-items: center;
+}
+
+.header-content, nav, .header-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    gap: 40px;
+}
+
+.header-right {
+    gap: 30px;
+}
+
+.logo {
+    color: #01996D;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header-text {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.email-btn{
+   padding: 13px 50px;
+   background-color: #01996D;
+   border: none;
+   color: white;
+   border-radius: 4px;
+   font-size: 20px;
+}
+
+.sec1 {
+    background: url(./img/sec1-bg.jpg) no-repeat center/cover;
+    height: calc(100vh - 85px);
+} 
+
+h1 {
+    padding-top: 175px;
+    font-size: 65px;
+    width: 440px;
+    color: #01996D;
+}
+
+.sec1-text {
+    width: 420px;
+    font-size: 20px;
+    color: #484848;
+    margin-top: 30px;
+}
+
+.sec1-btn {
+    padding: 20px 50px;
+    background-color: #01996D;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.sec2-up {
+    padding-top:170px ;
+}
+
+.sec2-up-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2-up-content > h2 {
+    font-size: 50px;
+    color: #01996D;
+    width: 40%;
+}
+
+.sec2-up-content > p {
+    width: 50%;
+    font-size: 20px;
+}
+.sec2-down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2-down1, .sec2-down2, .sec2-down3 {
+    width: 30%;
+}
+
+.num01{
+    font-size: 150px;
+    color: #01996D;
+    opacity: 0.3;
+}
+.text01 {
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+    bottom: 65px;
+    left: 90px;
+}
+.sec2-img {
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 12px;
+}
+
+.sec2-down2 {
+    position: relative;
+    top: 230px;
+}
+
+.sec2-down3 {
+    position: relative;
+    top: 20px;
+}
+
+.sec3 {
+    padding: 150px 120px;
+    margin-top: 250px;
+    background-color: #245852;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec3-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.sec3-h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.sec3-p {
+    font-size: 25px;
+    color: white;
+}
+
+.sec3-left-btn {
+    font-size: 20px;
+    padding: 20px 50px;
+    width: 60%;
+    background-color: #01996D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.sec3-right {
+    width: 55%;
+    position: relative;
+}
+
+.sec3-img-big{
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.sec3-play {
+    position: absolute;
+    top: 44%;
+    left: 44%;
+    z-index: 1;
+}
+
+/* sec4 */
+
+.sec4-content {
+    margin: 120px 70px 240px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec4-left {
+    position: relative;
+    width: 50%;
+}
+ 
+.sec4-woman {
+    width: 100%;
+}
+
+.sec4-card {
+    width: 65%;
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+}
+
+.sec4-right {
+    width: 42%;
+}
+
+.sec4-right > div {
+    font-size: 25px;
+}
+
+.sec4-right > h2 {
+    font-size: 40px;
+    color: #01996D;
+    margin-top: 10px;
+}
+
+.sec4-right > p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.sec4-right > button {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 20px 50px;
+    background-color: #01996D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #245852;
+    padding: 95px 0 130px 0;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer-content > h2, 
+.footer-content > span {
+    color: white;
+    /* display: block; */
+}
+
+/* .footer-content > span {
+    margin-top: 60px;
+} */
